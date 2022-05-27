@@ -52,12 +52,10 @@ rocket = "0.5.0-rc.2"
   development version of Rocket, you'll need to point `Cargo.toml` to a Rocket
   git repository. For example, with `######` replaced with a git commit hash:
 
-  `
+  ```
   [dependencies]
-  `
-  `
   rocket = { git = "https://github.com/SergioBenitez/Rocket", rev = "######" }
-  `
+  ```
 
 Modify `src/main.rs` so that it contains the code for the Rocket `Hello, world!`
 program, reproduced below:
